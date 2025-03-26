@@ -14,7 +14,18 @@ pip install pyarmor==7.6.0
 pip install pyinstaller
 
 ```
+## Obfuscation Process
+Obfuscate the script using PyArmor:
+```bash
+pyarmor obfuscate app.py
+```
+Package the obfuscated script into an executable:
+```bash
+pyinstaller --onefile --noconsole dist/app.py
 
+```
+
+## License
 This will display correctly on GitHub and maintain readability. Let me know if you need further refinements! 🚀
 
 
