@@ -17,11 +17,11 @@ pip install pyinstaller
 ## Obfuscation Process
 Obfuscate the script using PyArmor:
 ```bash
-pyarmor obfuscate app.py
+pyarmor obfuscate socket_client.py
 ```
 Package the obfuscated script into an executable:
 ```bash
-pyinstaller --onefile --noconsole dist/app.py
+pyinstaller --onefile --noconsole dist/socket_client.py
 
 ```
 
