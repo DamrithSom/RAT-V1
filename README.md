@@ -13,3 +13,8 @@ This guide provides steps to obfuscate a Python script using PyArmor and package
 pip install pyarmor==7.6.0
 pip install pyinstaller
 
+```
+
+This will display correctly on GitHub and maintain readability. Let me know if you need further refinements! 🚀
+
+
